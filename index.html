@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ali Hasan — Portfolio</title>
+
+    <!-- Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="Portfolio.css">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+
+    <!-- HEADER -->
+    <header class="site-header" id="siteHeader" role="banner">
+        <div class="container header-inner">
+            <a class="brand" href="#hero" aria-label="Home">
+                <span class="brand-dot" aria-hidden="true"></span>
+                <span class="brand-text">Qureshi Ali Hasan</span>
+            </a>
+
+            <nav class="site-nav" role="navigation" aria-label="Main navigation">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- HERO -->
+        <section id="hero" class="hero">
+            <div class="hero-bg" aria-hidden="true"></div>
+
+            <div class="hero-inner container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Ali Hasan</span></h1>
+                    <p class="hero-sub">Frontend Developer • UI/UX Designer • Backend Learner</p>
+                    <div class="hero-ctas">
+                        <a class="btn primary" href="#projects">View My Work</a>
+                        <a class="btn ghost" href="#contact">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="about section reveal">
+            <div class="container about-grid">
+                <div class="about-text">
+                    <h2>About Me</h2>
+
+                    <p>
+                        I’m a creative developer with a professional mindset and a love for polished, user-centered
+                        interfaces.
+                        I combine modern web technologies and thoughtful design to transform ideas into elegant,
+                        accessible web experiences.
+                    </p>
+
+                    <p>
+                        I started experimenting with layouts, animations, and interfaces early on — that curiosity
+                        became a skillset. I write maintainable HTML, modern CSS and pragmatic JavaScript, and
+                        continuously learn backend concepts to round out my abilities.
+                    </p>
+
+                    <p>
+                        When I'm not coding, you’ll find me exploring new UI patterns in Figma, improving project
+                        workflows, or contributing to small open-source tools. I build with clarity and care — every
+                        component should be intentional and delightful.
+                    </p>
+                </div>
+
+                <div class="about-media">
+                    <!-- Replace with your photo. Keep aspect ratio ~4:5 -->
+                    <!-- <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+                        alt="Ali Hasan">
+                </div> -->
+                </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="projects section reveal">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <p class="muted">Here are a few projects I built — each one taught me something new.</p>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+                            alt="ToDo App">
+                        <div class="card-body">
+                            <h3>To-Do App</h3>
+                            <p class="muted">A simple, fast task manager using localStorage and small JS architecture.
+                            </p>
+                            <div class="tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                            </div>
+                            <div class="card-actions">
+                                <a class="btn small" href="https://github.com/Qureshi-Alihasan/To-do-Web-Codes"
+                                    aria-label="View code">Code</a>
+                                <a class="btn small ghost" href="https://to-do-web-lilac.vercel.app"
+                                    aria-label="View demo">Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1506765515384-028b60a970df?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+                            alt="Portfolio">
+                        <div class="card-body">
+                            <h3>Portfolio Website</h3>
+                            <p class="muted">My personal portfolio — responsive, accessible, and animated.</p>
+                            <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+                            <div class="card-actions">
+                                <a class="btn small" href="#" aria-label="View code">Code</a>
+                                <a class="btn small ghost" href="#" aria-label="View demo">Project</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=placeholder"
+                            alt="Calculator">
+                        <div class="card-body">
+                            <h3>Calculator</h3>
+                            <p class="muted">This is a basic calculator I developed during my free time to practice
+                                fundamentals and improve my JavaScript skills.
+                            </p>
+                            <div class="tags"><span>JS</span><span>UI</span></div>
+                            <div class="card-actions">
+                                <a class="btn small" href="https://github.com/Qureshi-Alihasan/Calculator.git"
+                                    aria-label="View code">Code</a>
+                                <a class="btn small ghost" href="https://calculator-peach-xi-47.vercel.app"
+                                    aria-label="View demo">Project</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="skills section reveal">
+            <div class="container">
+                <h2>Skills & Expertise</h2>
+                <p class="muted">Tools and technologies I use to build products.</p>
+
+                <div class="skills-grid">
+                    <div class="skill-card reveal">
+                        <h4>Frontend</h4>
+                        <p class="muted">HTML, CSS, JavaScript</p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h4>UI/UX</h4>
+                        <p class="muted">Figma, Prototyping</p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h4>Backend Basics</h4>
+                        <p class="muted">Node.js, Express</p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h4>Web Tech</h4>
+                        <p class="muted">REST APIs, Git</p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h4>Responsive</h4>
+                        <p class="muted">Mobile-first & accessibility</p>
+                    </div>
+                    <div class="skill-card reveal">
+                        <h4>Performance</h4>
+                        <p class="muted">Optimization & SEO basics</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section">
+            <h2 class="section-title">My Services</h2>
+            <p class="section-subtitle">
+                I offer professional freelance services that bring your ideas to life.
+            </p>
+
+            <div class="services-container" id="Services">
+
+                <!-- Web Development -->
+                <div class="service-card" data-tilt>
+                    <div class="card-header">Web Development</div>
+
+                    <!-- SVG ICON -->
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 4h18v16H3z"></path>
+                            <path d="M8 4v16"></path>
+                            <path d="M16 10l-2 2 2 2"></path>
+                            <path d="M12 14l2-2-2-2"></path>
+                        </svg>
+                    </div>
+
+                    <p class="service-text">
+                        I build fast, clean and responsive websites using HTML, CSS, JS and modern frameworks.
+                    </p>
+
+                    <div class="price-box">Starting from ₹899</div>
+
+                    <button class="hire-btn">Hire Me</button>
+                </div>
+
+                <!-- UI/UX Design -->
+                <div class="service-card" data-tilt>
+                    <div class="card-header">UI / UX Design</div>
+
+                    <!-- SVG ICON -->
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M14.31 8l5.74 9.94"></path>
+                            <path d="M9.69 8h11.48"></path>
+                            <path d="M7.38 12l5.74-9.94"></path>
+                            <path d="M9.69 16L3.95 6.06"></path>
+                        </svg>
+                    </div>
+
+                    <p class="service-text">
+                        I design beautiful user interfaces using Figma with a focus on modern design trends.
+                    </p>
+
+                    <div class="price-box">Starting from ₹499</div>
+
+                    <button class="hire-btn">Hire Me</button>
+                </div>
+
+                <!-- Backend Development -->
+                <div class="service-card" data-tilt>
+                    <div class="card-header">Backend Development</div>
+
+                    <!-- SVG ICON -->
+                    <div class="service-icon">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4h16v16H4z"></path>
+                            <path d="M4 9h16"></path>
+                            <path d="M9 9v11"></path>
+                        </svg>
+                    </div>
+
+                    <p class="service-text">
+                        I create APIs, authentication systems, and database setups for full-stack projects.
+                    </p>
+
+                    <div class="price-box">Starting from ₹999</div>
+
+                    <button class="hire-btn">Hire Me</button>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- THEME TOGGLE -->
+        <div class="theme-toggle">
+            <i id="themeIcon" class="sun">☀️</i>
+        </div>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+
+            <h2>Get In Touch</h2>
+            <p class="section-desc">
+                Have a project in mind or want to collaborate? I'm always open to new opportunities.
+            </p>
+
+            <div class="contact-container">
+
+                <!-- LEFT: FORM -->
+                <form id="contactForm" action="https://formsubmit.co/QureshiAlihasan27016@gmail.com" method="POST">
+
+                    <div class="input-group">
+                        <label>Your Name</label>
+                        <input type="text" name="name" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Your Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label>Message</label>
+                        <textarea name="message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+
+                    <p id="formStatus"></p>
+                </form>
+
+                <!-- RIGHT: INFO -->
+                <div class="contact-info">
+
+                    <h3>Contact Information</h3>
+
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <p>Email<br><a href="mailto:QureshiAlihasan27016@gmail.com">QureshiAlihasan27016@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <p>Phone<br><a href="tel:+919867717734">+91 98677 17734</a></p>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <p>Location<br>Madanpura, Mumbai - 400008</p>
+                    </div>
+
+                    <p class="contact-note">Looking forward to hearing from you! I typically respond within 24 hours.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <p>© 2025 Qureshi Ali Hasan. All rights reserved.</p>
+        </footer>
+
+        <script src="Portfolio.js"></script>
+</body>
+
+</html>
